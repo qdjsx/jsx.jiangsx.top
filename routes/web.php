@@ -11,8 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',"CampaignController@jsx");
 
 Route::any('campaign/index',"CampaignController@jsx");
