@@ -11,7 +11,7 @@ class CampaignController extends Controller
 
     public  function jsx(){
         $a = \DB::table('admin')->get();
-        var_dump($a);
+        //var_dump($a);
         var_dump(1);
     }
 
